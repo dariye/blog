@@ -1,0 +1,15 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Journey with a junior developer",
+  "main": "index.js",
+  "author": "Paul Dariye <paul.dariye@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "list . ",
+    "start": "list . -c"
+  },
+  "dependencies": {
+    "list": "latest"
+  }
+}
