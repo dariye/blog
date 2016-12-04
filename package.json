@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Paul Dariye <paul.dariye@gmail.com>",
   "license": "MIT",
+  "now": {
+    "alias": "code"
+  },
   "scripts": {
     "dev": "list . ",
     "start": "list . -c"

@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+import args from 'args'
+import updateNotifier from'update-notifier'
+
+import pkg from '../package.json'
+
+updateNotifier({pkg}).notify()
+
+args
+  .command('publish', 'Publish and deploy site')
+  .command('serve', 'Serve site locally')
+  .command('build', 'Build site locally')
+
+args.parse(process.argv)
