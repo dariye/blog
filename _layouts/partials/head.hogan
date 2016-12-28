@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@{{twitter}}" />
+    <meta name="og:title" content="{{title}}" />
+    <meta name="author" content="{{author}}" />
+    <meta name="og:url" content="https://code.now.sh" />
+    <meta name="description" content="{{desciption}}" />
+    <meta name="og:description" content="{{description}}" />
+    <meta name="og:image" content="img/avatar.svg" />
+    <meta name="theme-color" content="#000000">
+    <link rel="dns-prefetch" href="https://cdn.zeit.co" /><!--abstract out-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+  </head>
+<body>

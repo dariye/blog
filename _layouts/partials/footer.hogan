@@ -1,0 +1,13 @@
+        <div id="footer">
+          <p>
+            <a href="https://twitter.com/{{twitter}}" class="twitter-follow-button"
+              data-show-count="false">Follow @{{twitter}}</a>
+          </p>
+          <p>&copy; {{year}}</p>
+        </div>
+      </div>
+    </div>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
