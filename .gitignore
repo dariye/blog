@@ -1,8 +1,5 @@
 # packages
 node_modules
 
-# build
-site
-
 .DS_Store
 
