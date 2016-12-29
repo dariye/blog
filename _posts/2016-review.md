@@ -1,6 +1,6 @@
 ---
 title: 2016 Review 🙏🏿
-date: 12-28-2016
+date: 12-29-2016
 summary: 2016 was awesome
 ---
 > **TLDR;** I've had an amazing year of many firsts. Although I had no clearly defined goals for 2016, I've been able to get to a point in my life where it is possible to set practical goals and have the freedom, financial and otherwise, to work towards them.
