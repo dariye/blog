@@ -45,12 +45,12 @@ function applyTemplate(templateFile) {
     var data = {
       year: new Date().getFullYear(),
       author: config.author,
-      title: file.frontMatter.title,
-      url: config.url,
-      description: file.frontMatter.summary,
       twitter: config.twitter,
+      url: `${config.url}/${slug(file.frontMatter.title.toLowerCase())}`,
+      title: file.frontMatter.title,
       postTitle: file.frontMatter.title,
       publishedAt: file.frontMatter.date,
+      description: file.frontMatter.summary,
     }
     file.contents = new Buffer(template.render(data, {head: head, header: header, content: content, footer: footer}),'utf8');
     this.push(file);
@@ -65,13 +65,13 @@ gulp.task('index', function(){
     .pipe($.rename({extname: ''}))
     .pipe($.frontMatter())
     .pipe($.tap(function(file){
-      files.push({name: file.relative, date: file.frontMatter.date});
+      files.push({name: file.frontMatter.title, date: file.frontMatter.date});
     }))
     .on('end', function() {
       files.forEach(function(file){
         posts.push({
-          postTitle: file.name.charAt(0).toUpperCase() + file.name.slice(1),
-          slug: slug(file.name),
+          postTitle: file.name,
+          slug: slug(file.name.toLowerCase()),
           publishedAt: file.date
         });
       });
@@ -79,7 +79,15 @@ gulp.task('index', function(){
 
   setTimeout(function(){
     return gulp.src(`${LAYOUT_DIR}/index.hogan`, {}, '.html')
-      .pipe($.hogan({year: `${new Date().getFullYear()}`, twitter: config.twitter, posts: posts}, null, '.html'))
+      .pipe($.hogan({
+        year: `${new Date().getFullYear()}`, 
+        title: config.title,
+        author: config.author,
+        url: config.url,
+        description: config.description,
+        twitter: config.twitter, 
+        posts: posts
+      }, null, '.html'))
       .pipe(gulp.dest(`${SITE_DIR}`));
   }, 2000);
 });
@@ -87,7 +95,7 @@ gulp.task('index', function(){
 gulp.task('posts', function() {
   return gulp.src(`${POST_DIR}/*.md`)
     .pipe($.frontMatter({remove: true}))
-    .pipe($.marked())
+    .pipe($.markdown())
     .pipe(applyTemplate(`${LAYOUT_DIR}/post.hogan`))
     .pipe($.dest(`${SITE_DIR}/:name/index.html`))
     .pipe(gulp.dest(`${SITE_DIR}`));
@@ -115,6 +123,24 @@ gulp.task('assets', function(callback) {
   $.sequence(['img', 'js', 'css'])(callback);
 });
 
+gulp.task('sitemap', function() {
+  gulp.src(`${SITE_DIR}/**/*.html`, {
+    read: false
+  })
+  .pipe($.sitemap({
+    siteUrl: config.url
+  }))
+  .pipe(gulp.dest(`${SITE_DIR}`));
+});
+
+gulp.task('robots', function(){
+  gulp.src(`${SITE_DIR}/index.html`)
+    .pipe($.robots({
+      useragent: '*'
+    }))
+    .pipe(gulp.dest(`${SITE_DIR}`));
+});
+
 gulp.task('clean', function() {
   return del.sync(`${SITE_DIR}`);
 });
@@ -128,7 +154,7 @@ gulp.task('watch', function(){
   gulp.watch(`${ASSET_DIR}/**/*`, ['assets']);
 });
 
-gulp.task('build', $.sequence('assets', ['index', 'posts']));
+gulp.task('build', $.sequence('assets', ['index', 'posts'], 'sitemap', 'robots'));
 
 gulp.task('start', function(){
   spawn('serve', [`${SITE_DIR}`, '-c'], {stdio: 'inherit'});

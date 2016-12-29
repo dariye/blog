@@ -1,11 +1,11 @@
 {{>head}} 
   {{>header }}
-  <div id="main">
-    <div id="content">
-      <h1 class="post">{{postTitle}}</h1>
-      <p><span class="time-published" style="display: none">{{publishedAt}}</span></p>
-      <article>
-        {{>content }}
-      </article>
+  <div id="content">
+    <h1 class="post">{{postTitle}}</h1>
+    <p><span class="time-published" style="display: none">{{publishedAt}}</span></p>
+    <article>
+      {{>content }}
+    </article>
+  </div>
 {{>footer }}
 

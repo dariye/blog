@@ -35,11 +35,37 @@ function timeDifference(rawTime) {
           sDate += date_diff.getHours() + " h " + date_diff.getMinutes() + " min";
       }
       return sDate;
-        }
+}
+
+function timeOfDay() {
+ var now = new Date();
+ var hour = now.getHours();
+ 
+ if (hour <= 8 || hour >= 17) {
+  return 'night';
+ } else {
+   return 'day';
+ }
+}
+
+function setBackgroundColor() {
+  var body = document.body;
+
+  switch(timeOfDay()) {
+    case 'night':
+      body.style.backgroundColor = '#000';
+      break;
+    default:
+      body.style.backgroundColor = '#fff';
+  }
+}
 
 var app = function() {
   
-
+  /*
+   * Set background
+   */
+  setBackgroundColor();
   /*
    * Update time of post
    */

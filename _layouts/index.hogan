@@ -1,11 +1,11 @@
 {{> partials/head }}
-  <div id="main">
-    {{> partials/header}}
-    <div id="content">
-      {{#posts}}
-      <h2 class="post"><a href="{{slug}}">{{postTitle}}</a></h2>
-      <p><span class="time-published" style="display: none">{{publishedAt}}</span></p>
-      <div class="spacer"></div>
-      {{/posts}}
+  {{> partials/header}}
+  <div id="content">
+    {{#posts}}
+    <h2 class="post"><a href="{{slug}}">{{postTitle}}</a></h2>
+    <p><span class="time-published" style="display: none">{{publishedAt}}</span></p>
+    <div class="spacer"></div>
+    {{/posts}}
+  </div>
 {{> partials/footer }}
 

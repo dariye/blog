@@ -8,8 +8,8 @@
     <meta name="twitter:site" content="@{{twitter}}" />
     <meta name="og:title" content="{{title}}" />
     <meta name="author" content="{{author}}" />
-    <meta name="og:url" content="https://code.now.sh" />
-    <meta name="description" content="{{desciption}}" />
+    <meta name="og:url" content="{{url}}" />
+    <meta name="description" content="{{description}}" />
     <meta name="og:description" content="{{description}}" />
     <meta name="og:image" content="img/avatar.svg" />
     <meta name="theme-color" content="#000000">
