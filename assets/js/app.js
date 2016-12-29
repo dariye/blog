@@ -9,8 +9,8 @@ function ready(fn) {
 
 
 function timeDifference(rawTime) {
-    var now = Date.now();
-    var time = Date.now(rawTime);
+    var now = new Date();
+    var time = new Date(rawTime);
     var diff = now - time;
     var days = Math.floor(diff / 1000 / 60 / (60 * 24));
 
