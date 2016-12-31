@@ -1,6 +1,6 @@
 ---
 title: 2016 Review 🙏🏿
-date: 12/29/2016
+date: 12/28/2016
 summary: 2016 was awesome
 ---
 > **TLDR;** I've had an amazing year of many firsts. Although I had no clearly defined goals for 2016, I've been able to get to a point in my life where it is possible to set practical goals and have the freedom, financial and otherwise, to work towards them.
@@ -34,7 +34,7 @@ Over these three years in the US, Brooklyn, has been my second home and I've met
 many amazing people I'm glad to call friends.
 
 I was in Nigeria the first two weeks of June. One week was spent at
-[Andela's](andela.com) campus in Yaba, Nigeria's largest tech hub. And I got to
+[Andela's](https://andela.com) campus in Yaba, Nigeria's largest tech hub. And I got to
 travel to Abuja, Nigeria's capital, and then to Jos, Plateau State, my hometown.
 
 The sudden realization that a week was insufficient to really catch up with
@@ -114,8 +114,7 @@ drop me a line or tweet at me if you've found a way.
 
 ### Euro-Trip
 
-I fortunate enough to be able to squeeze some vacation. Albeit impromptu, this
-vacation was much needed. 
+I'm fortunate enough to have been able to squeeze some vacation time into a very busy year. And albeit impromptu, this vacation was needed to keep my sanity.
 
 I traveled from New York to Copenhagen, Denmark by way of Istanbul, Turkey.
 
@@ -144,7 +143,7 @@ However, after a few months of out of school, I'm happy to be rid of all my debt
 I picked up on reading this year and got through **10** books (just getting warmed up
 for the marathon).
 
-Here are my top **6** of the year:
+Here are my top **5** of the year:
 
 - [War & Peace](https://www.amazon.com/gp/product/0375760644/)
 - [The Pleasure of Finding Things
@@ -214,11 +213,11 @@ afterall. There is hope.
 
 ## Conclusion && 2017 Goals
 
-For many 2016 was a very gloomy year but I've grateful that inspite that seeming gloom, I've made a few steps in the right direction. Yes Brexit was cause for alarm. Yes the Trump presidency isn't something anyone imagined, I'd dare say even for hardcore Trumpers. Where the this road leads, no one knows, not even Trump, but I believe that this was inevitable at some point in the next 10 years. And we will find better ways to understand and accept our differences. Then we can find a middle ground that accommodates every one. 
+For many 2016 was a very gloomy year but I've grateful that in spite of that seeming gloom, I've made a few steps in the right direction. Yes Brexit was cause for alarm. Yes the Trump presidency isn't something anyone imagined, I'd dare say even for hardcore Trumpers. Where this road leads, no one knows, not even Trump, but I believe that this was inevitable at some point in the next 10 years. And we will find better ways to understand and accept our differences. Then we can find a middle ground that accommodates everyone. 
 
 In my share of civic duty, I attended a few #BlackLivesMatter marches around NYC. I'm looking to contribute to more meaningful causes like this in 2017 until there isn't any need for such movements anymore.
 
-> We shall not rest *Until justice rolls down like waters and righteousness like a mighty stream*.
+> We shall not rest *until justice rolls down like waters and righteousness like a mighty stream*.
 
 Without getting anymore political, here are my top goals for 2017 in no particular order. I prefer building good
 habits over hitting some arbitrary number of something.
@@ -291,7 +290,7 @@ Evan Johnson, Luke Dubios, Su Sanni, Adam Cragg, Steve Kuyan, Andela fam(Ian,
 Tess, Christine, Roberto, Tolu, Tipsy, Adeleke, and many many more ... #TIA)
 - Personally, I would like to thank my friends in NYC for making it home. I
   never feel alone. I never feel lonely. Thank you Magdalena Schwarz, Isha Blaakar, Cadence Daniel, Tejas Fulkar (and my other roommates Sai and Ken), Abhinay Ashutosh, Alexandra Cardinale, Vidyathar Thate, Connor Lin, Peter Ryan, Michael Lisovetsky, Michael McKay. Again, for those I didn't mention, I would like to thank you enormously for making every bit of life worthwhile.
-- [Zeit.co](zeit.co). I *borrowed* their website theme for this blog. 
+- [Zeit.co](https://zeit.co). I *borrowed* their website theme for this blog. 
 
 [family-2016]: img/family-2016.jpg "Trip to Nigeria"
 [andela-fam-2016]: img/andela-fam-2016.jpg "This is Andela"
