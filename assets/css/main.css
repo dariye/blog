@@ -96,6 +96,7 @@ h1 {
   margin: 30px;
   color: #50E3C2;
   line-height: 18px;
+  background-color: #282C34;
 }
 #content table thead td {
   color: #999;
@@ -188,6 +189,10 @@ strong {
   border-radius: 4px;
   margin: 20px auto;
   /* cursor: pointer; */
+}
+
+.img-container.full {
+  max-height: 100%;
 }
 
 img {

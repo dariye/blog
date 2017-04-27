@@ -157,7 +157,7 @@ gulp.task('watch', function(){
 gulp.task('build', $.sequence('assets', ['index', 'posts'], 'sitemap', 'robots'));
 
 gulp.task('start', function(){
-  spawn('serve', [`${SITE_DIR}`, '-c'], {stdio: 'inherit'});
+  spawn('serve', [`./${SITE_DIR}`, '-c'], {stdio: 'inherit'});
 });
 
 gulp.task('default', function(callback) {

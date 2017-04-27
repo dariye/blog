@@ -1,8 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "Journey with a junior developer",
-  "main": "index.js",
+  "description": "Journey with technology and learning enthusiast.",
   "author": "Paul Dariye <paul.dariye@gmail.com>",
   "license": "MIT",
   "now": {
