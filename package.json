@@ -9,8 +9,7 @@
   },
   "scripts": {
     "dev": "gulp",
-    "start": "gulp start",
-    "predeploy": "gulp clean && gulp build",
+    "start": "gulp build && gulp start",
     "deploy": "now . && now alias "
   },
   "dependencies": {
