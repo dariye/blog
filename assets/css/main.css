@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 body, html {
-  background: #fff;
-  color: #ccc;
-  font: 12px Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
+  background: #FFFFFF; 
+  color: #222222; 
+  font: 14px Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
 }
 h1 {
   line-height: 1em;
@@ -51,28 +51,27 @@ h1 {
   height: 100px;
 }
 #content a {
-  color: #ccc;
+  color: #1EAEDB;
   text-decoration: none;
-  border-bottom: 1px dotted #F62459;
+  border-bottom: 1px dotted #1EAEDB;
 }
 #content a:hover {
-  background: #000000;
-  color: #fff;
   font-weight: bold;
 }
 #content h2, #content h3 {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
-  color: #ccc;
+  color: #222222;
   margin-top: 10px;
 }
 #content h2 a, #content h3 a {
-  color: #ccc;
+  color: #1EAEDB;
   border-bottom-width: 0;
 }
 #content p {
   line-height: 18px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 #content h2:before {
   content: '## ';
@@ -93,7 +92,6 @@ h1 {
 /* } */
 
 #content pre {
-  margin: 30px;
   color: #50E3C2;
   line-height: 18px;
   background-color: #282C34;
@@ -155,7 +153,7 @@ h1 {
 }
 
 #content p b {
-  color: #F62459;
+  color: #282C34;
 }
 
 .time-published {
@@ -165,7 +163,7 @@ h1 {
   content: ' ago'
 }
 .social-twitter {
-  color: #1DA1F3
+  color: #1DA1F3;
 }
 .spacer {
   display: block;
@@ -173,13 +171,13 @@ h1 {
 }
 
 blockquote {
-  border-left: 3px solid #F62459;
+  border-left: 3px solid #1EAEDB;
   padding-left: 10px;
   margin: 10px auto;
 }
 
 strong {
-  color: #F62459;
+  color: #1EAEDB;
 }
 
 .img-container {

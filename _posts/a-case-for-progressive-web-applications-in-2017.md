@@ -4,8 +4,6 @@ date: 04/20/2017
 summary: If your company is or is planning on doing business in emerging markets, architecting your web applications for performance through progressive enhancements is one easy way to drastically improve accessibility, retention, and user experience.
 ---
 
-# A Case for Progressive Web Applications in 2017
-
 > TL;DR — If your company is or is planning on doing business in emerging markets, architecting your web applications for performance through progressive enhancements is one easy way to drastically improve accessibility, retention, and user experience.
 
 *Disclaimer: It so happens that not only people in emerging markets suffer from poor networks.*
@@ -215,9 +213,9 @@ Adios for now. See you in Part II.
 - *Acknowledgement: Huge thanks to my colleagues on the Andela Marketing & Technology teams for reviewing and proofreading this piece.*
 - *Crossposting: You can find this piece on [Andela's Medium Technology Publication](https://medium.com/technology-learning/a-case-for-progressive-web-applications-in-2017-dafb5957e783)*
 
-[google-search-result]: img/google-search-result.png "Google Web Search for ‘progressive web applications’"
-[mobile-network-coverage-and-evolving-technologies]: img/mobile-network-coverage-and-evolving-technologies.png "Mobile network coverage and evolving technologies. Source: ITU"
-[global-smartphone-sales]: img/global-smartphone-sales.png "Global Smartphone Sales. Source: Gartner"
-[fixed-and-mobile-broadband-pricing]: img/fixed-and-mobile-broadband-pricing.png "Fixed- and mobile-broadband prices, $$$. Source: ITU"
-[opensignal-fragmentation-report]: img/opensignal-fragmentation-report.png "Android OS Fragmentation by Device. Source: OpenSignal"
-[global-internet-usage]: img/global-internet-usage.png "Global Internet Coverage. Source: ITU"
+[google-search-result]: ../img/google-search-result.png "Google Web Search for ‘progressive web applications’"
+[mobile-network-coverage-and-evolving-technologies]: ../img/mobile-network-coverage-and-evolving-technologies.png "Mobile network coverage and evolving technologies. Source: ITU"
+[global-smartphone-sales]: ../img/global-smartphone-sales.png "Global Smartphone Sales. Source: Gartner"
+[fixed-and-mobile-broadband-pricing]: ../img/fixed-and-mobile-broadband-pricing.png "Fixed- and mobile-broadband prices, $$$. Source: ITU"
+[opensignal-fragmentation-report]: ../img/opensignal-fragmentation-report.png "Android OS Fragmentation by Device. Source: OpenSignal"
+[global-internet-usage]: ../img/global-internet-usage.png "Global Internet Coverage. Source: ITU"

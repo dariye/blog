@@ -11,10 +11,10 @@
     <meta name="og:url" content="{{url}}" />
     <meta name="description" content="{{description}}" />
     <meta name="og:description" content="{{description}}" />
-    <meta name="og:image" content="img/avatar.svg" />
+    <meta name="og:image" content="../img/avatar.svg" />
     <meta name="theme-color" content="#000000">
     <link rel="dns-prefetch" href="https://cdn.zeit.co" /><!--abstract out-->
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+    <link rel="shortcut icon" href="../img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen"/>
   </head>
 <body>
