@@ -65,7 +65,7 @@ var app = function() {
   /*
    * Set background
    */
-  setBackgroundColor();
+  // setBackgroundColor();
   /*
    * Update time of post
    */
