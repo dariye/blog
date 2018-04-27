@@ -11,13 +11,13 @@
     "deploy": "now . && now alias "
   },
   "dependencies": {
-    "gulp": "^3.9.1",
     "serve": "latest"
   },
   "devDependencies": {
     "args": "^2.1.0",
     "del": "^2.2.2",
     "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
     "gulp-cssmin": "^0.1.7",
     "gulp-data": "^1.2.1",
     "gulp-debug": "^3.0.0",

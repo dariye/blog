@@ -1,6 +1,7 @@
 {
   "name": "blog.pauldariye.com",
-  "alias": "blog.pauldariye.com"
+  "alias": "blog.pauldariye.com",
+  "type": "npm"
 }
 
 
