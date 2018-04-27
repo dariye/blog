@@ -1,5 +1,5 @@
 ---
-title: A Case for Progressive Web Applications in 2017
+title: A Case for Progressive Web Applications
 date: 04/20/2017
 summary: If your company is or is planning on doing business in emerging markets, architecting your web applications for performance through progressive enhancements is one easy way to drastically improve accessibility, retention, and user experience.
 ---
@@ -9,7 +9,7 @@ summary: If your company is or is planning on doing business in emerging markets
 *Disclaimer: It so happens that not only people in emerging markets suffer from poor networks.*
 
 
-Starting last year, Progressive Web Applications (PWAs) became a really hot topic all over the interweb, as you can see [here](https://addyosmani.com/blog/getting-started-with-progressive-web-apps/), [here](https://auth0.com/blog/introduction-to-progressive-apps-part-one/), [here](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/), [here](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/), or and [here](https://developers.google.com/web/progressive-web-apps/). Even your run of the mill [Google search](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=progressive%20web%20applications) returns a staggering amount of chatter:
+Towards the start of 2016, Progressive Web Applications (PWAs) became a really hot topic all over the interweb, as you can see [here](https://addyosmani.com/blog/getting-started-with-progressive-web-apps/), [here](https://auth0.com/blog/introduction-to-progressive-apps-part-one/), [here](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/), [here](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/), or and [here](https://developers.google.com/web/progressive-web-apps/). Even your run of the mill [Google search](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=progressive%20web%20applications) returns a staggering amount of chatter:
 
 
 <div class="img-container full">
@@ -17,11 +17,7 @@ Starting last year, Progressive Web Applications (PWAs) became a really hot topi
 </div>
 *Google Web Search for ‘progressive web applications’*
 
-
-This three part series is here to tell you why they’re a good thing. In part 1, we’ll talk about why progressive enhancements are good for you, your customers, and your business. Part 2 will walk through a simple example of how to add progressive enhancements to an existing application. Finally, part 3 will test it out using another shiny tool from Google–[Lighthouse](https://developers.google.com/web/tools/lighthouse/)–which will explain why.
-
-And finally, I’m going to wrap it all up by putting it in the context of emerging markets.
-
+In this post I’ll talk about why progressive enhancements are good for you, your customers, and your business especially if you have operations in emerging markets. I’ll then show you three quick wins to help you on the path to adopting progressive enhancements into web applications going forward.
 
 ## PART 1: PWAs ARE GOOD FOR YOU
 
@@ -130,10 +126,6 @@ If you’re a CEO/CTO, product owner, or product manager, you’ll only find you
 At [Andela](http://andela.com/what-we-do) we’re constantly mulling over how to best empower the next generation of technology leaders. As we expand through the continent of Africa, finding some of the most talented individuals, we’re always looking for better ways to reach them. Luckily I’m part of the team–Marketing Tech–rebuilding our website to adhere to the accessibility standards progressive web apps are setting and of which I’ve made a case for in this post.
 
 
-In the next chapter, Part 2, we’ll build a simple progressive web application.
-Here’s a quick teaser:
-
-
 You can quickly begin progressive enhancements by:
 
 
@@ -141,6 +133,7 @@ You can quickly begin progressive enhancements by:
 
 
 Example `manifest.json` file in root directory (preferably)
+
 
 ```javascript
 {
@@ -184,11 +177,11 @@ Example `manifest.json` file in root directory (preferably)
 
 ```
 
-
 2.Installing a Service Worker
 
 
 Example [service worker registration](https://developers.google.com/web/fundamentals/instant-and-offline/service-worker/registration) in a `sw.js` file (you can name this whatever you like)
+
 
 
 ```javascript
@@ -204,9 +197,19 @@ Example [service worker registration](https://developers.google.com/web/fundamen
   }
 ```
 
+
 3.Serving your web application over HTTPS
 
-Adios for now. See you in Part II.
+Adios for now.
+
+**UPDATE: The first version of this post published last year was titled ‘A Case
+for Progressive Web Applications in 2017’. It also stated that this was the
+first post of a three part series. Coupled with the fact that I was unable to
+get to the other parts of the series as originally intended, the case for
+Progressive Web Applications need not be relegated to any particular year. They
+are needed today as they were last year and even more so going forward. I hope
+to continue writing about progressive enhancements with real world examples and
+use cases going forward.**
 
 
 - *Note: Browser support: Chief among the reason people shy away from progressive enhancement is the [lack of support by some major browser vendors](https://jakearchibald.github.io/isserviceworkerready/), Apple being the elephant in the room.*
